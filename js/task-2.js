@@ -1,5 +1,5 @@
 function calcAverageCalories(days) {
-    const howDays = days.lenght;
+    const howDays = days.length;
     if (howDays === 0) return 0;
     let totalCalories = 0;
     for (const calories of days) {
